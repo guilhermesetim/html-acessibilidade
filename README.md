@@ -7,9 +7,9 @@
 ---
 
 ## Itens de acessibilidade implementados
-- [*] HTML de forma semântica (form, header, main, section, footer);
-- [*] tabindex;
-- [*] tag's próprias para listas;
-- [*] mudança de contraste;
-- [*] aumentar fonte;
-- [*] texto alternativo em imagens
+- [x] HTML de forma semântica (form, header, main, section, footer);
+- [x] tabindex;
+- [x] tag's próprias para listas;
+- [x] mudança de contraste;
+- [x] aumentar fonte;
+- [x] texto alternativo em imagens
