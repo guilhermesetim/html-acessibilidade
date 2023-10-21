@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Acessibilidade</title>
+</head>
+<body>
+
+    <header>
+        <h1 tabindex="0">Acessibilidade</h1>
+    </header>
+
+    <main>
+        <!-- 1. Formulário -->
+        <section>
+            <h2 tabindex="0">Formulário com acessibilidade</h2>
+            <form>
+
+            <div>
+                <span>
+                    <label for="form-nome" tabindex="0">Nome: </label> <input tabindex="0" type="text" id="form-nome" >
+                </span>
+                <span>
+                    <label for="form-sobrenome" tabindex="0">Sobrenome: </label> <input tabindex="0" type="text" id="form-sobrenome">
+                </span>
+            </div>
+            <div>
+                <label for="form-email" tabindex="0">E-mail: </label> <input tabindex="0" type="text" id="form-email">
+            </div>
+            <div>
+                <span>
+                    <label for="form-senha" tabindex="0">Senha: </label> <input tabindex="0" type="password" id="form-senha">
+                </span>
+                <span>
+                    <label for="form-confirmeSenha" tabindex="0">Confirmar senha: </label> <input tabindex="0" type="password" id="form-confirmeSenha">
+                </span>
+            </div>
+            <button type="submit" tabindex="0">Registrar</button>
+
+
+            </form>
+
+        </section>
+
+        <hr>
+
+        <!-- 2. Listas -->
+        <section>
+            <h2 tabindex="0">Plano de viagem</h2>
+            <ol class="lista-viagem">
+                <li tabindex="0">Definir destino</li>
+                <li tabindex="0">Definir data</li>
+                <li tabindex="0">Pesquisar preços</li>
+                <ol>
+                    <li tabindex="0">Passagens</li>
+                    <li tabindex="0">Estadia</li>
+                    <li tabindex="0">Alimentação</li>
+                    <li tabindex="0">Locomoção</li>
+                </ol>
+                <li tabindex="0">Comprar passagens</li>
+                <li tabindex="0">Fazer reservas</li>
+                <li tabindex="0">Arrumar as malas</li>
+            </ol>
+        </section>
+
+        <hr>
+
+        <!-- 3. Alteração das cores do tema -->
+        <section class="section-mudarTema">
+            <div>
+                <h2 tabindex="0">Alterar cores e aumenta a fonte</h2>
+                <input tabindex="0" type="button" value="Alterar tema" id="troca-tema">
+                <input tabindex="0" type="button" value="Aumentar fonte" id="aumenta-fonte">
+                <input tabindex="0" type="button" value="Diminuir fonte" id="diminui-fonte">
+            </div>
+            
+            <p class="altera-fonte" tabindex="0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe atque at officia sunt esse! Sint, nulla dolores ea illo corporis iste itaque repellat eligendi ad nihil odit neque voluptate ex.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus sapiente aut ea perspiciatis. Laborum quod placeat autem repellendus molestiae, sed numquam soluta necessitatibus nam asperiores. Quas consectetur temporibus eveniet fuga.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus in perspiciatis vitae excepturi maxime quo sequi, voluptates ipsa voluptate temporibus libero, expedita distinctio nostrum itaque, facilis ab labore provident eos?</p>
+        </section>
+
+        <hr>
+
+        <!-- 4. Texto alternativo para imagens -->
+        <section>
+            <h2 tabindex="0">Texto alternativo para imagens</h2>
+            <img tabindex="0" src="https://images.pexels.com/photos/2607544/pexels-photo-2607544.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="cachorro branco usando um óculos de sol de lente rosa" title="cachorro branco usando um óculos de sol de lente rosa">
+        </section>
+
+    </main>
+
+    <footer>
+        &copy; Guilherme e Leonardo
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
